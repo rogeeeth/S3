@@ -101,7 +101,7 @@ public class request extends HttpServlet {
             out.println("</html>");
         }
         
-        creds = new BasicAWSCredentials("AKIAJMGJV2N46U6CYYBQ", "zOqOvLicbsaV9+Y/x1igdI8faiaRGVMoidToIGhe");
+        creds = new BasicAWSCredentials("*******************", "********************************");
       String path="C:\\Users\\Rohith\\Documents\\floods.txt";
       String foldername="summa.txt";
       AmazonS3 s3 = AmazonS3Client.builder().withRegion(Regions.US_EAST_1).withCredentials(new AWSStaticCredentialsProvider(creds)).build();
