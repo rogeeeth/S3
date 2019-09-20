@@ -1,0 +1,28 @@
+h1  
+{  
+  color: red;  
+  align: "center";
+} 
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th{
+    height:50px;
+    text-align:left;
+}
+
+td{
+    text-align:left;
+    padding:8px;
+}
+
+img{
+    align:"middle";
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
